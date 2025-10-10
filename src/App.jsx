@@ -107,7 +107,11 @@ function App() {
             <h4>Coffee shop bonus system</h4>
             <span> React, Supabase</span>
             <p>Командная работа. Веб-приложение для бонусной системы и заказов: корзина, подсчёт суммы, история покупок, улучшенный адаптивный дизайн</p>
-
+          </div>
+          <div className='projects' onClick={() => window.open('https://qr.geeg.tatar', '_blank')}>
+            <h4>QR code generator</h4>
+            <span> React, CSS, Vite</span>
+            <p>Простой гениратор QR кодов. Упор на минимализм в дизайне. Возможность скачать результат в SVG и PNG форматах</p>
           </div>
         </div>
       </div>
