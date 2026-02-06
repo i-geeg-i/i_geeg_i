@@ -98,7 +98,7 @@ function App() {
             <span> React, TypeScript, Vite, Flask, PostgreSQL</span>
             <p>Fullstack-приложение для онлайн-записи на маникюр и педикюр с аутентификацией, интерфейсом пользователя и администратора, REST API и базой данных</p>
           </div>
-          <div className='projects' onClick={() => window.open('https://github.com/i-geeg-i/truthordare', '_blank')}>
+          <div className='projects' onClick={() => window.open('https://truthordare.geeg.tatar/', '_blank')}>
             <h4>Truth or Dare</h4>
             <span> React, CSS, Vite</span>
             <p>Одностраничная онлайн-игра «Правда или действие» с тремя уровнями сложности, адаптивным UI и маршрутизацией</p>
@@ -112,6 +112,11 @@ function App() {
             <h4>QR code generator</h4>
             <span> React, CSS, Vite</span>
             <p>Простой гениратор QR кодов. Упор на минимализм в дизайне. Возможность скачать результат в SVG и PNG форматах</p>
+          </div>
+          <div className='projects' onClick={() => window.open('https://weather.geeg.tatar', '_blank')}>
+            <h4>Weather app</h4>
+            <span> React, CSS, Vite, Python(litle backend)</span>
+            <p>Приложение для отображения погоды в реальном времени с использованием Weather API. Упор на минимализм в дизайне.</p>
           </div>
         </div>
       </div>
